@@ -3,6 +3,7 @@ import './App.css';
 import Welcome from './components/Welcome';
 import Greeting from './components/Welcome2';
 import Welcome3 from './components/Welcome3';
+import Goodbye from './components/Goodbye';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Welcome />
       <Greeting />
       <Welcome3 name="hojin" />
+      <Goodbye />
+      <Goodbye name="chu" />
     </div>
   );
 }
