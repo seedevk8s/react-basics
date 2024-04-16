@@ -9,6 +9,10 @@ import Goodbye from './components/Goodbye';
 import { FirstComponent as FC, SecondComponent as SC } from './components/MyComponent';
 // import MyComponent from './components/MyComponent';
 import MC from './components/MyComponent';
+import HelloWorld from './components/HelloWorld';
+import HelloWorld2 from './components/HelloWorld2';
+import HelloWorld3 from './components/HelloWorld3';
+import HelloWorld4 from './components/HelloWorld4';
 
 function App() {
   return (
@@ -26,6 +30,10 @@ function App() {
       <SC />
       {/* <MyComponent /> */}
       <MC />
+      <HelloWorld />
+      <HelloWorld2 />
+      <HelloWorld3 />
+      <HelloWorld4 />
     </div>
   );
 }
