@@ -17,6 +17,8 @@ import Student from './components/Student';
 import Student2 from './components/Student2';
 import Student3 from './components/Student3';
 import Student4 from './components/Student4';
+import Student5 from './components/Student5';
+import Student6 from './components/Student6';
 
 function App() {
 
@@ -64,6 +66,16 @@ function App() {
       />
       <Student4 
         data = {skills}
+      />
+      <Student5 
+         firstName = "les5"
+         lastName = "vag5"
+         email = "les5@gmail.com"       
+      />
+      <Student6 
+         firstName = "les6"
+         lastName = "vag6"
+         email = "les6@gmail.com"             
       />
     </div>
   );
