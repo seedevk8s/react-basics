@@ -19,6 +19,7 @@ import Student3 from './components/Student3';
 import Student4 from './components/Student4';
 import Student5 from './components/Student5';
 import Student6 from './components/Student6';
+import Employee from './components/Employee';
 
 function App() {
 
@@ -77,6 +78,7 @@ function App() {
          lastName = "vag6"
          email = "les6@gmail.com"             
       />
+      <Employee />
     </div>
   );
 }
