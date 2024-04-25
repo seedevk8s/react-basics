@@ -22,6 +22,7 @@ import Student6 from './components/Student6';
 import Employee from './components/Employee';
 import User from './components/User';
 import EventHandling from './components/EventHandling'
+import ConditionRedering from './components/ConditionRendering';
 
 function App() {
 
@@ -83,6 +84,7 @@ function App() {
       <Employee />
       <User />
       <EventHandling />
+      <ConditionRedering />
     </div>
   );
 }
