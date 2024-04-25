@@ -11,9 +11,18 @@ const ConditionRedering = () => {
         message = /* return */ <p>부디 로그인하삼!</p>
     }
 
+    function handleLogin() {
+        setIsLoggedIn(true)
+    }
+
     return (
         <div>
+            <br />
             {message}
+
+            
+            <button onClick={handleLogin}>로그인</button>
+
         </div>
     )
 
