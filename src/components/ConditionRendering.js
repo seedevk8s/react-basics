@@ -20,6 +20,13 @@ const ConditionRedering = () => {
             <br />
             {message}
 
+            {
+                isLoggedIn ? <p>환영합니다. 사용자님2!</p> : <p>부디 로그인하삼2!</p>
+            }
+
+            {
+                isLoggedIn && <p>환영합니다. 사용자님3!</p>
+            }
             
             <button onClick={handleLogin}>로그인</button>
 
