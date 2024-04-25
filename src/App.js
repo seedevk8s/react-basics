@@ -20,6 +20,8 @@ import Student4 from './components/Student4';
 import Student5 from './components/Student5';
 import Student6 from './components/Student6';
 import Employee from './components/Employee';
+import User from './components/User';
+import EventHandling from './components/EventHandling'
 
 function App() {
 
@@ -79,6 +81,8 @@ function App() {
          email = "les6@gmail.com"             
       />
       <Employee />
+      <User />
+      <EventHandling />
     </div>
   );
 }
